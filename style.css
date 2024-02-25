@@ -524,7 +524,9 @@ footer {
     margin-top: -220px;
     height: 400px;
 }
-
+#button-main{
+    margin-left: 32px;
+}
                     /* CONFIGURAÇÕES DESIGN RESPONSIVO (MOBILE) */
 
 @media screen and (max-width: 700px) {
@@ -705,5 +707,9 @@ ul{
         .talk-to-me{
            
             margin-left: -85px;
+        }
+
+        #button-main{
+            margin-left: 32px;
         }
     }
