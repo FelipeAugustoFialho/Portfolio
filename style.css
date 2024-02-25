@@ -10,8 +10,10 @@
     color: #a0a0a0;
     text-decoration: none;
     font-family: 'Poppins';
-
 }
+
+
+
                     /* CONFIGURAÇÕES DE CABEÇALHO*/
 
 nav {
@@ -19,8 +21,16 @@ nav {
     background: #3d3d3d;
     height: 50px;
     font-size: 30px;
-    word-spacing: 113px;
-
+    word-spacing: 75px;
+    width: 75vw;
+    border-radius: 103px;
+    justify-content: right;
+    display: flex;
+    justify-content: center;
+    margin-right: -45px;
+    margin-left: 160px;
+    margin-top: 17px;
+    gap: 72px;
 }
                 
 
@@ -47,7 +57,7 @@ nav {
 }
 
 .animacao {
-    margin-left: 540px;
+    margin-left: 513px;
     display: inline;
 
 }
@@ -59,7 +69,7 @@ nav {
     width: 416px;
     position: absolute;
     margin-left: 250px;
-
+    
 }
 
 
@@ -90,7 +100,7 @@ aside {
 .cable-1 {
    
     margin-left: 20px;
-    margin-top: 135px;
+    margin-top: 169px;
 }
         /* CONFIGURAÇÕES DE LISTA - HOVER CRIA EFEITO AO PASSAR O MOUSE*/
 ul {
@@ -112,7 +122,8 @@ li:hover {
     width: 416px;
     position: absolute;
     overflow: hidden;
-    margin-left: 831px;
+    
+    margin-left: 986px;
 }
 
 .cable-experience {
@@ -246,7 +257,7 @@ img {
     text-align: center;
     justify-content: right;
     font-size: 12px;
-    margin-right: 23px;
+    margin-left: -107px;
 }
 
 .box1 {
@@ -505,14 +516,23 @@ footer {
         max-width: 97%;
         overflow-x: clip;
         margin-left: 0;
+        
+        margin-left: -32px;
+    }
+    .name{
+        width: 95vw;
+        font-size: 30px;
+        margin-top: -10px;
     }
 
     .p-main{
-        width: 100%;
+        width: 168%;
         font-size: 16px;
     }
+
     .p-about{
         font-size: 16px;
+        width: 100%;
     }
     h1{
         font-size: 39px;
@@ -523,6 +543,16 @@ footer {
     nav {
         display: none;
     }
+    .links{
+        margin-left: 103px;
+    }
+
+    aside{
+        display: inline-flex;
+        margin-left: 123px;
+        margin-top: 60px;   
+    }
+
 .animacao-led{
     display: none;
 }
@@ -552,16 +582,14 @@ footer {
     width: 97%;
     margin-left: 52px;
 }
-aside{
-    display: inline-flex;
-    margin-left: 52px;
-    margin-top: 60px;   
-}
+
 .my-picture{
     margin-top: 179px;
     width: 250px;
     height: 250px;
     margin-right: 556px;
+    margin-left: -73px;
+    display: grid;
     
 }
 p{
@@ -574,9 +602,11 @@ p{
 }
 .h2-technology{
     font-size: 35px;
+    font-size: 30px;
+    width: 333px;
 }
 .h2-projects{
-    font-size: 35px;
+    font-size: 30px;
 }
 ul{
     margin-top: 125px;
@@ -590,8 +620,10 @@ ul{
         width: 100%;
     }
     .divider{
-        width: 100%;
-        margin-left: 12px;
+       
+        margin-left: 44px;
+        width: 95%;
+        margin-bottom: -80px;
     }
     .projects{
         text-align:left ;
@@ -615,11 +647,15 @@ ul{
             margin-left: -112px;
             margin-top: -73px;
         }
+        .projects{
+            margin-top: 134px;
+            margin-left: 85px;
+        }
         .contact{
-            margin-left: 60px;
+            margin-left: 87px;
         }
         footer{
-            margin-left: 69px;
+            margin-left: 111px;
         }
         .talk-to-me{
             margin-left: -109px;
