@@ -29,6 +29,7 @@ nav {
     text-decoration: none;
     position: relative;
     background: transparent;
+    margin-left: 33px;
 }
 
 .links:hover {
@@ -57,7 +58,7 @@ nav {
     margin-top: -295px;
     width: 416px;
     position: absolute;
-    margin-left: 255px;
+    margin-left: 250px;
 
 }
 
@@ -82,13 +83,14 @@ aside {
     display: inline-grid;
     gap: 20px;
     margin-top: -210px;
+    margin-left: 20px;
 
 }
 
 .cable-1 {
    
     margin-left: 20px;
-    margin-top: 165px;
+    margin-top: 135px;
 }
         /* CONFIGURAÇÕES DE LISTA - HOVER CRIA EFEITO AO PASSAR O MOUSE*/
 ul {
@@ -109,18 +111,16 @@ li:hover {
     margin-top: -455px;
     width: 416px;
     position: absolute;
-    margin-left: 986px;
     overflow: hidden;
-
+    margin-left: 831px;
 }
 
 .cable-experience {
     margin-left: 340px;
-    width: 380px;
     z-index: 2;
     position: relative;
     margin-left: 769px;
-
+    width: 230px;
 }
 
                     /* CONFIGURAÇÕES SOBRE MIN*/
@@ -242,10 +242,9 @@ img {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    margin-right: 183px;
     justify-content: right;
     font-size: 12px;
-
+    margin-right: 23px;
 }
 
 .box1 {
@@ -326,14 +325,13 @@ footer {
                     /* CONFIGURAÇÕES INICIAIS FORMULÁRIO*/
 .contact {
 
-    margin-left: 560px;
     text-align: center;
     justify-content: center;
     width: 260px;
     margin-top: 50px;
     font-size: 25px;
     margin-bottom: 50px;
-    
+    margin-left: 463px;
    
 }
                  /* CONFIGURAÇÕES BOTÃO CHAMAR FORMULÁRIO*/
