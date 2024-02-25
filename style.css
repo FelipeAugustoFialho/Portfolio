@@ -360,8 +360,7 @@ footer {
     font-size: 25px;
     margin-bottom: 50px;
     margin-left: 510px;
-    
-    
+       
    
 }
                  /* CONFIGURAÇÕES BOTÃO CHAMAR FORMULÁRIO*/
@@ -503,7 +502,8 @@ textarea::placeholder {
 
 
 footer {
-    margin-left: 517px;
+    margin-left: 527px;
+    
 }
 
 .talk-to-me {
@@ -533,6 +533,29 @@ footer {
         
         margin-left: -32px;
     }
+    nav{
+        display: flex;
+        text-align: center;
+        background: #3d3d3d;
+        height: 70px;
+        font-size: 14px;
+        width: 138px;
+        /* word-spacing: -5px; */
+        width: 86vw;
+        border-radius: 103px;
+        justify-content: right;
+        display: flex;
+        justify-content: space-around;
+        margin-right: -95px;
+        margin-left: 53px;
+        margin-top: 40px;
+        margin-bottom: 58px;
+        gap: 0px;
+        flex-wrap: wrap;
+    }
+    
+    
+    
     .name{
         width: 88vw;
         font-size: 28px;
@@ -555,11 +578,14 @@ footer {
     }
 
   
-    nav {
-        display: none;
-    }
+   
     .links{
-        margin-left: 75px;
+        
+        margin-left: 0px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
     }
 
     aside{
@@ -596,6 +622,9 @@ footer {
     margin-top: 93px;
     width: 97%;
     margin-left: 52px;
+}
+#button-main{
+    margin-left: 75px;
 }
 
 .my-picture{
