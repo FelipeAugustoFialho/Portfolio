@@ -271,7 +271,7 @@ img {
     text-align: center;
     justify-content: right;
     font-size: 12px;
-    margin-left: -107px;
+    margin-left: -58px;
 }
 
 .box1 {
@@ -358,6 +358,7 @@ footer {
     margin-top: 50px;
     font-size: 25px;
     margin-bottom: 50px;
+    margin-left: 575px;
     
     
    
@@ -500,7 +501,8 @@ textarea::placeholder {
 }
 
 .contact {
-    margin-left: 468px;
+
+ margin-left: 585px;
 }
 
 footer {
