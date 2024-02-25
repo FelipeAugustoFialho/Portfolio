@@ -313,6 +313,7 @@ footer {
     gap: 20px;
     margin-bottom: 2px;
     margin-top: 135px;
+    margin-left: 517px;
     
 
 }
@@ -358,7 +359,7 @@ footer {
     margin-top: 50px;
     font-size: 25px;
     margin-bottom: 50px;
-    margin-left: 575px;
+    margin-left: 510px;
     
     
    
@@ -500,13 +501,9 @@ textarea::placeholder {
     margin-left: 50px;
 }
 
-.contact {
-
- margin-left: 585px;
-}
 
 footer {
-    margin-left: 582px;
+    margin-left: 517px;
 }
 
 .talk-to-me {
