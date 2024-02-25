@@ -68,7 +68,7 @@ nav {
     margin-top: -295px;
     width: 416px;
     position: absolute;
-    margin-left: 250px;
+    margin-left: 284px;
     
 }
 
@@ -92,8 +92,8 @@ p {
 aside {
     display: inline-grid;
     gap: 20px;
-    margin-top: -210px;
     margin-left: 20px;
+    margin-top: -241px;
 
 }
 
@@ -122,8 +122,8 @@ li:hover {
     width: 416px;
     position: absolute;
     overflow: hidden;
+    margin-left: 837px;
     
-    margin-left: 986px;
 }
 
 .cable-experience {
@@ -296,10 +296,10 @@ button:hover {
         /* CONFIGURAÇÕES DE FOOTER (ÍCONES) */
 footer {
     display: flex;
-    margin-left: 572px;
     gap: 20px;
     margin-bottom: 2px;
     margin-top: 135px;
+    margin-left: 475px;
 
 }
 
@@ -344,7 +344,7 @@ footer {
     margin-top: 50px;
     font-size: 25px;
     margin-bottom: 50px;
-    margin-left: 463px;
+    margin-left: 468px;
    
 }
                  /* CONFIGURAÇÕES BOTÃO CHAMAR FORMULÁRIO*/
