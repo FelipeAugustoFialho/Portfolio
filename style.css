@@ -70,7 +70,7 @@ nav {
     margin-top: -295px;
     width: 416px;
     position: absolute;
-    margin-left: 284px;
+    margin-left: 251px;
     
 }
 
@@ -117,7 +117,7 @@ aside {
 .cable-1 {
    
     margin-left: 20px;
-    margin-top: 169px;
+    margin-top: 202px;
 }
         /* CONFIGURAÇÕES DE LISTA - HOVER CRIA EFEITO AO PASSAR O MOUSE*/
 ul {
@@ -139,7 +139,7 @@ li:hover {
     width: 416px;
     position: absolute;
     overflow: hidden;
-    margin-left: 837px;
+    margin-left: 986px;
     
 }
 
@@ -274,7 +274,7 @@ img {
     text-align: center;
     justify-content: right;
     font-size: 12px;
-    margin-left: -58px;
+    margin-left: -133px;
 }
 
 .box1 {
