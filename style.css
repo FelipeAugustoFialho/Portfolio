@@ -545,6 +545,7 @@ footer {
         margin-left: -32px;
     }
     nav{
+
         display: flex;
         text-align: center;
         background: #3d3d3d;
@@ -559,10 +560,11 @@ footer {
         justify-content: space-around;
         margin-right: -95px;
         margin-left: 53px;
-        margin-top: 40px;
+        margin-top: -12px;
         margin-bottom: 58px;
         gap: 0px;
         flex-wrap: wrap;
+        display: none;
     }
     
     
@@ -634,7 +636,7 @@ footer {
     width: 97%;
     margin-left: 52px;
 }
-#button-main{}
+
 
 .my-picture{
     margin-top: 179px;
