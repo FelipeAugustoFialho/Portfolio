@@ -124,7 +124,7 @@ aside {
 }
         /* CONFIGURAÇÕES DE LISTA - HOVER CRIA EFEITO AO PASSAR O MOUSE*/
 ul {
-    margin-top: 10px;
+    margin-top: 100px;
     margin-left: 47px;
     margin-bottom: 56px;
     width: 50px;
@@ -146,12 +146,13 @@ li:hover {
     
 }
 
-.cable-experience {
-    margin-left: 340px;
+.cable-tecnology {
+    margin-left:0px;
     z-index: 2;
     position: relative;
-    margin-left: 769px;
-    width: 230px;
+    
+    width: 900px;
+    margin-top: -67px;
 }
 
                     /* CONFIGURAÇÕES SOBRE MIN*/
@@ -187,7 +188,8 @@ li:hover {
     box-shadow: 0px 0px 10px #ca3e47;
     z-index: 1;
     margin-right: -6px;
-    margin-top: 27px;
+    
+    margin-top: 88px;
 
 }
 
