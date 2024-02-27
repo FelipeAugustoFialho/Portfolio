@@ -614,6 +614,7 @@ footer {
 .cable-tecnology{
   position:static;
     width: 381px;
+    display: none;
 }
 .prisma-led{
     display: none;
@@ -659,7 +660,7 @@ p{
     font-size: 35px;
     font-size: 30px;
     width: 333px;
-    position: absolute;
+    position: relative;
 }
 .h2-projects{
     font-size: 30px;
