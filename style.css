@@ -611,9 +611,9 @@ footer {
     display: none;
 }
 
-.cable-experience{
-    display: none;
-
+.cable-tecnology{
+  position:static;
+    width: 381px;
 }
 .prisma-led{
     display: none;
