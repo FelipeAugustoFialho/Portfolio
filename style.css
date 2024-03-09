@@ -10,6 +10,7 @@
     color: #a0a0a0;
     text-decoration: none;
     font-family: 'Poppins';
+   
 }
 
 
@@ -143,6 +144,7 @@ li:hover {
     position: absolute;
     overflow: hidden;
     margin-left: 1012px;
+    margin-left: 61vw;
     
 }
 
@@ -590,7 +592,6 @@ footer {
         margin-top: -10px;
     }
 
-  
    
     .links{
         
@@ -640,7 +641,7 @@ footer {
 
 
 .my-picture{
-    margin-top: 179px;
+    margin-top: 40px;
     width: 250px;
     height: 250px;
     margin-right: 556px;
@@ -661,6 +662,7 @@ p{
     font-size: 30px;
     width: 333px;
     position: relative;
+    margin-top: -200px;
 }
 .h2-projects{
     font-size: 30px;
@@ -679,8 +681,9 @@ ul{
     .divider{
        
         margin-left: 44px;
-        width: 95%;
+        width: 100%;
         margin-bottom: -80px;
+        margin-top: -90px;
     }
     .projects{
         text-align:left ;
@@ -720,6 +723,6 @@ ul{
         }
 
         #button-main{
-            margin-left: 32px;
+            margin-left: 80px;
         }
     }
