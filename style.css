@@ -588,6 +588,9 @@ textarea::placeholder {
         width: 75px;
         font-size: 14px;
     }
+    .buttonsFilter{
+        flex-wrap: wrap;
+    }
 
     .projectList {
         display: inline-table;

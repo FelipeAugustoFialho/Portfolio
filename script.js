@@ -8,7 +8,10 @@ const menuProjects = [
     { name: 'barberShop', category: "landingPage", src: 'assets/img/project-barberShop.JPG', href: 'https://felipeaugustofialho.github.io/Project-BarberShop/', title: 'Projeto Barber Shop', p: 'Uma simples Landing Page, utilizando apenas HTML e CSS' },
     { name: 'loginProject', category: "landingPage", src: 'assets/img/project-login.JPG', href: 'https://felipeaugustofialho.github.io/Project-Login/', title: 'Projeto Login', p: 'Esse projeto conta com duas páginas, simulando um "cadastramento" utilizando apenas HTML e CSS' },
     { name: 'socialProject', category: "projetoSocial", src: 'assets/img/socialProject.JPG', href: 'https://felipeaugustofialho.github.io/ToNoCorre-inicio/', title: 'Tô no Corre!', p: 'Um projeto social desenvolvido para jovens em situação de vulnerabilidade com vagas de estágio e cursos gratuitos.' },
-    { name: 'devBurguer', category: "landingPage", src: 'assets/img/devBurguer.JPG', href: 'https://felipeaugustofialho.github.io/project-Burguer/', title: 'Dev Burguer', p: 'Com diversas opções de filtros.O objetivo é por em prática ferramentas do JavaScript como: map,filter,reduce' }
+    { name: 'devBurguer', category: "landingPage", src: 'assets/img/devBurguer.JPG', href: 'https://felipeaugustofialho.github.io/project-Burguer/', title: 'Dev Burguer', p: 'Com diversas opções de filtros.O objetivo é por em prática ferramentas do JavaScript como: map,filter,reduce' },
+    { name: 'AppMagazine', category: "UI/UX", src: 'assets/img/appMagazine.JPG', href: 'https://www.figma.com/proto/6U4AQkFgvWpIR8lDa3SzuM/APP-MagazineLuiza?node-id=7-484&t=MZTJaRCrQaT5zNMB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A484', title: 'App Magazine Luiza', p: 'Atividade de Design de Sistemas, onde foi solicitado "copiar" algum app existente.<br><br>Ferramenta Utilizada:Figma' },
+    { name: 'devBurguer', category: "UI/UX", src: 'assets/img/appPagamento.JPG', href: 'https://www.figma.com/proto/u9YzpsqQqrdFIHamwLBOuW/Untitled?t=FTXpVNL1vgWQJadk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=1-396', title: 'App Pagamento via Pix', p: 'Durante um processo seletivo,foi solicitado a criação de uma tela de envio de Pix.<br><br> Ferramenta Utilizada:Figma' },
+
 ];
 
 // BOTOES PROJETOS //
@@ -17,6 +20,7 @@ const landingPage = document.querySelector('#landingPage');
 const utilidade = document.querySelector('#utilidades');
 const allItens = document.querySelector('#showAll');
 const projetoSocial = document.querySelector('#socialProject');
+const uiUx = document.querySelector('#uiUx');
 let list = document.querySelector('.projectList');
 
 // FUNCOES PARA PROJETOS
@@ -44,7 +48,7 @@ landingPage.addEventListener('click', () => showProjects('landingPage'));
 utilidade.addEventListener('click', () => showProjects('utilidade'));
 allItens.addEventListener('click', () => showProjects('all'));
 projetoSocial.addEventListener('click', () => showProjects('projetoSocial'));
-
+uiUx.addEventListener('click',()=> showProjects('UI/UX'));
 
 
 
