@@ -584,13 +584,13 @@ textarea::placeholder {
     }
 
     .buttonsSearch {
-        height: 75px;
-        width: 75px;
+        height: 65px;
+        width: 110px;
         font-size: 14px;
     }
     .buttonsFilter{
         display: grid;
-        grid-template-columns: 75px 75px 75px;
+        grid-template-columns: 95px 95px 95px;
     }
 
     .projectList {
