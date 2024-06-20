@@ -139,11 +139,11 @@ ul {
 
 
 .cable-tecnology {
-    margin-left: 601px;
+    margin-left: 235px;
     z-index: 2;
     margin-top: -39px;
     position: relative;
-    width: 854px;
+    width: 1169px;
 }
 
 
@@ -572,7 +572,8 @@ textarea::placeholder {
     .h2-technology {
         font-size: 30px;
         max-width: 330px;
-        /* Alterado para max-width */
+        margin-top: -200px;
+        
     }
 
     .divider {
