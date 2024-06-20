@@ -589,7 +589,8 @@ textarea::placeholder {
         font-size: 14px;
     }
     .buttonsFilter{
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 75px 75px 75px;
     }
 
     .projectList {
