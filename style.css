@@ -116,7 +116,7 @@ aside {
 /* CONFIGURAÇÕES DE LISTA - HOVER CRIA EFEITO AO PASSAR O MOUSE */
 
 ul {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 47px;
     margin-bottom: 56px;
     width: 50px;
@@ -215,7 +215,7 @@ ul {
 
 .h2-technology {
     font-size: 30px;
-    margin-top: 15px;
+    margin-top: -200px;
     position: relative;
     z-index: 3;
     max-width: 800px;
