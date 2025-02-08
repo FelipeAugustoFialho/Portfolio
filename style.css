@@ -147,7 +147,7 @@ ul {
     z-index: 2;
     margin-top: -39px;
     position: relative;
-    width: 1169px;
+    width: 1100px;
 }
 
 
@@ -195,8 +195,7 @@ ul {
     box-shadow: 0px 0px 10px #ca3e47;
     z-index: 1;
     margin-right: -6px;
-    margin-top: 88px;
-}
+    }
 
 .divider {
     z-index: 2;
