@@ -1,5 +1,4 @@
 
-
 const menuProjects = [
     { name: 'randonProject', category: "utilidade", src: 'assets/img/random-project.JPG', href: 'https://felipeaugustofialho.github.io/Random-2.0/', title: 'Projeto Random', p: 'Um site para sortear números, desenvolvido com: HTML, CSS e JavaScript' },
     { name: 'jokenpoProject', category: "utilidade", src: 'assets/img/jokenpo-project.JPG', href: 'https://felipeaugustofialho.github.io/Jokenpo-Project/', title: 'Projeto Jokenpô', p: 'O clássico jogo pedra papel e tesoura, desenvolvido com: HTML, CSS e JavaScript' },
@@ -12,6 +11,11 @@ const menuProjects = [
     { name: 'AppMagazine', category: "UI/UX", src: 'assets/img/appMagazine.JPG', href: 'https://www.figma.com/proto/6U4AQkFgvWpIR8lDa3SzuM/APP-MagazineLuiza?node-id=7-484&t=MZTJaRCrQaT5zNMB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A484', title: 'App Magazine Luiza', p: 'Atividade de Design de Sistemas, onde foi solicitado "copiar" algum app existente.<br><br>Ferramenta Utilizada:Figma' },
     { name: 'devBurguer', category: "UI/UX", src: 'assets/img/appPagamento.JPG', href: 'https://www.figma.com/proto/u9YzpsqQqrdFIHamwLBOuW/Untitled?t=FTXpVNL1vgWQJadk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=1-396', title: 'App Pagamento via Pix', p: 'Durante um processo seletivo,foi solicitado a criação de uma tela de envio de Pix.<br><br> Ferramenta Utilizada:Figma' },
 
+    { name: 'RevistaPathos', category: "freelancer", src: 'assets/img/pathos.png', href: 'https://revistapathos.com.br/', title: 'Revista Pathos', p: 'Manutenção do site da Revista,criação de novas páginas,tópicos, e revistas.<br>Tecnologias utilizadas:<br>WordPress' },
+    { name: 'JFBarbearia', category: "freelancer", src: 'assets/img/JF.png', href: 'https://felipeaugustofialho.github.io/JF-Landing-Page/', title: 'JF Barbearia',p: 'Realizei a criação deste banner e atualmente criando um site para a barbearia.<br>Tecnologias utilizadas:<br>Canva,HTML,CSS,JavaScript' },
+    { name: 'ThokadaMotoka', category: "freelancer", src: 'assets/img/thoka.png', href: 'https://www.facebook.com/thokadamotoka02', title: 'Thoka da Motoca',p:'Realizei a criação deste Banner para postagem em redes sociais.<br>Tecnologias utilizadas:<br>Canva' },
+    { name: 'OliverJetWash', category: "freelancer", src: 'assets/img/Oliver.jpg', href: '#', title: 'Oliver Jet Wash', p: 'Realizei a criação deste logo para o Lava Rápido. <br><br>Tecnologias utilizadas:Canva' },
+
 ];
 
 // BOTOES PROJETOS //
@@ -21,6 +25,7 @@ const utilidade = document.querySelector('#utilidades');
 const allItens = document.querySelector('#showAll');
 const projetoSocial = document.querySelector('#socialProject');
 const uiUx = document.querySelector('#uiUx');
+const freelancer = document.querySelector('#freelancer')
 let list = document.querySelector('.projectList');
 
 // FUNCOES PARA PROJETOS
@@ -48,7 +53,9 @@ landingPage.addEventListener('click', () => showProjects('landingPage'));
 utilidade.addEventListener('click', () => showProjects('utilidade'));
 allItens.addEventListener('click', () => showProjects('all'));
 projetoSocial.addEventListener('click', () => showProjects('projetoSocial'));
-uiUx.addEventListener('click',()=> showProjects('UI/UX'));
+uiUx.addEventListener('click',() => showProjects('UI/UX'));
+freelancer.addEventListener('click', () => showProjects('freelancer'));
+
 
 
 
@@ -99,3 +106,32 @@ function preventFormSubmit(event) {
 formulario.addEventListener('click', aparecerForm);
 closeButton.addEventListener('click', closeForm);
 
+
+
+/* CONFIGURAÇÕES DE NAVEGAÇÃO DE LINKS SUAVE */
+
+document.addEventListener('DOMContentLoaded', () => {
+    const linksHeader = document.querySelectorAll('.links');
+
+
+    
+
+    // Função para fazer a rolagem suave
+    function rolarParaSeção(event) {
+        event.preventDefault(); // Evita o comportamento padrão do link
+
+        // Obtém o ID da seção correspondente ao link
+        const targetId = this.getAttribute('href').substring(1); // Remove o "#" do href
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            // Realiza a rolagem suave até a seção
+            targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
+    // Adiciona o evento de clique para cada link
+    linksHeader.forEach(link => {
+        link.addEventListener('click', rolarParaSeção);
+    });
+});
